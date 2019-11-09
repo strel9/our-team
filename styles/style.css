@@ -6,7 +6,7 @@ body {
   background-color: #fff;
 }
 .ba-header {
-  margin-top: 90px;
+  margin-top: 74px;
   /* margin-bottom: 54px; */
   display: flex;
   justify-content: center;
@@ -31,14 +31,14 @@ body {
 .ba-header__img {
   display: block;
   position: absolute;
-  bottom: 10%;
+  bottom: 2%;
   right: 49.5%;
 }
 .ba-header::before,
 .ba-header::after {
   display: block;
   position: absolute;
-  bottom: 15%;
+  bottom: 7%;
   content: "";
   background: #ffcc00;
   width: 13em;
@@ -52,9 +52,9 @@ body {
 }
 
 .ba-card {
-  max-width: 1010px;
+  max-width: 1150px;
   /* margin: 175px 400px 94px 400px; */
-  margin: 20px auto;
+  margin: 40px auto;
 
   display: flex;
   flex-wrap: wrap;
@@ -150,7 +150,7 @@ body {
   align-items: center;
 }
 .ba-right__title {
-  margin-top: 10px;
+  margin-top: 20px;
   padding-bottom: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: 900;
@@ -167,7 +167,7 @@ body {
   bottom: 0;
   content: "";
   background: #ffcc00;
-  width: 82px;
+  width: 90px;
   height: 2px;
 }
 
@@ -197,7 +197,7 @@ body {
 }
 .ba-right p {
   font-size: 0.875em;
-  line-height: 1.4;
+  line-height: 1.9;
   font-weight: 500;
   text-align: center;
   max-width: 420px;
@@ -237,13 +237,13 @@ body {
 
 .control-left {
   position: absolute;
-  left: -50px;
-  top: 50%;
+  left: 18px;
+  top: 46%;
 }
 .control-right {
   position: absolute;
-  right: -50px;
-  top: 50%;
+  right: 10px;
+  top: 46%;
 }
 [class^="control-"]:hover {
   transform: scale(1.5);
