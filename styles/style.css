@@ -227,7 +227,7 @@ body {
   right: -50px;
   top: 50%;
 }
-.control:hover {
+[class^='control-']:hover {
   transform: scale(1.5);
 }
 .slider {
