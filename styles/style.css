@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+body {
+  background-color: #fff;
+}
+.ba-header {
+  margin-top: 90px;
+  /* margin-bottom: 54px; */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.ba-header__descr {
+  color: #898f8f;
+  font-size: 1.125em;
+  line-height: 24px;
+  font-weight: 500;
+}
+.ba-header__title {
+  font-family: "Roboto", sans-serif;
+  font-size: 3.75em;
+  font-weight: 900;
+  margin-bottom: 55px;
+  color: #ffcc00;
+  line-height: 66px;
+}
+.ba-header__img {
+  display: block;
+  position: absolute;
+  bottom: 10%;
+  right: 49.5%;
+}
+.ba-header::before,
+.ba-header::after {
+  display: block;
+  position: absolute;
+  bottom: 15%;
+  content: "";
+  background: #ffcc00;
+  width: 13em;
+  height: 2px;
+}
+.ba-header::before {
+  left: 51%;
+}
+.ba-header::after {
+  right: 51%;
+}
+
+.ba-card {
+  max-width: 1010px;
+  /* margin: 175px 400px 94px 400px; */
+  margin: 20px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  /* border: #002fff solid 2px; */
+}
+
+.container {
+  /* margin: 90px auto; */
+  margin: 0 auto;
+}
+.container-inner {
+  margin: 70px auto;
+}
+.ba-left {
+  display: flex;
+  width: 50%;
+}
+
+/* .ba-left-foto::after,
+.ba-left-foto::before {
+  display: block;
+  position: absolute;
+  content: "";
+  background: #ffffff;
+  width: 14em;
+  height: 3px;
+  right: 660px;
+}
+
+.ba-left-foto::before {
+  bottom: 596px;
+}
+.ba-left-foto::after {
+  bottom: 160px;
+} */
+
+/* brd */
+.brd {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+}
+
+.bt {
+  border-top: 2px solid #ffcc00;
+  top: 0;
+}
+.bl {
+  border-left: 2px solid #ffcc00;
+  left: 0;
+}
+.br {
+  border-right: 2px solid #ffcc00;
+  right: 0;
+}
+.bb {
+  border-bottom: 2px solid #ffcc00;
+  bottom: 0;
+}
+/* /brd */
+/* line-top */
+/* .blt {
+  border-top: 2px solid #ffcc00;
+  top: 0;
+}
+.bll {
+  left: 230px;
+}
+.blr {
+  right: 230px;
+} */
+/* /line-top */
+
+.ba-left__foto-border {
+  /* border: #ffcc00 solid 2px; */
+  padding: 14px;
+  position: relative;
+}
+.ba-left__foto {
+  border: #ffcc00 solid 2px;
+}
+.ba-right {
+  display: flex;
+  width: 50%;
+  color: #666666;
+  border-left: solid #ffcc00 2px;
+}
+.right--inner {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.ba-right__title {
+  margin-top: 10px;
+  padding-bottom: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  color: #666666;
+  font-size: 2.25em;
+  line-height: 24px;
+  position: relative;
+}
+
+.ba-right__title::after {
+  display: block;
+  position: absolute;
+  left: 33%;
+  bottom: 0;
+  content: "";
+  background: #ffcc00;
+  width: 82px;
+  height: 2px;
+}
+
+.ba-right__descr {
+  font-size: 1.5em;
+  line-height: 36px;
+  font-weight: 400;
+}
+.ba-social {
+  width: 33%;
+  display: flex;
+  justify-content: space-around;
+}
+.ba-social__icons:hover {
+  /* opacity: 0.7; */
+  transform: scale(1.2);
+}
+.ba-social__icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 2px solid #cccccc;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+.ba-right p {
+  font-size: 0.875em;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center;
+  max-width: 420px;
+}
+.ba-right__btn {
+  margin-bottom: 5px;
+  padding: 6px 12px;
+  color: #666666;
+  border: #ffcc00 solid 2px;
+  text-decoration: none;
+  font-size: 0.875em;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+}
+.ba-right__btn:hover {
+  /* border: #ffcc00 solid 2px; */
+  background-color: #ffcc00;
+}
+
+.control-left {
+  position: absolute;
+  left: -50px;
+  top: 50%;
+}
+.control-right {
+  position: absolute;
+  right: -50px;
+  top: 50%;
+}
+.control:hover {
+  transform: scale(1.5);
+}
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60px;
+  height: 20px;
+  position: absolute;
+  bottom: -40px;
+  left: 47.2%;
+}
+.slider__item {
+  border: #ffcc00 solid 2px;
+  background-color: #ffcc00;
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
+}
