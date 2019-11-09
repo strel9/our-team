@@ -19,6 +19,7 @@ body {
   font-size: 1.125em;
   line-height: 24px;
   font-weight: 500;
+  text-transform: uppercase;
 }
 .ba-header__title {
   font-family: "Roboto", sans-serif;
@@ -27,6 +28,8 @@ body {
   margin-bottom: 55px;
   color: #ffcc00;
   line-height: 66px;
+  text-transform: uppercase;
+
 }
 .ba-header__img {
   display: block;
@@ -221,14 +224,16 @@ body {
 }
 
 .ba-right__btn {
+  font-size: 0.875em;
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+
   margin-bottom: 5px;
   padding: 6px 12px;
   color: #666666;
   border: #ffcc00 solid 2px;
   text-decoration: none;
-  font-size: 0.875em;
-  font-weight: 700;
-  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
 }
 .ba-right__btn:hover {
   /* border: #ffcc00 solid 2px; */
